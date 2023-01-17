@@ -138,3 +138,41 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.icon-footer {
+  margin-bottom: 1.5rem;
+  margin: 20px 10px;
+}
